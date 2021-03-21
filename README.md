@@ -23,6 +23,15 @@
   - Pohranjivanje svih elektronskih recepata i nalaza u PDF formatu na računar/telefon, kao i printanje istih.
   - Samostalno brisanje profila ukoliko je pacijent završio svoje aktivnosti u poliklinici čime se briše i njegov medicinski karton.
 
+## Nefukcionalni zahtjevi:
+- Lični podaci korisnika sistema su zaštićeni poštujući zakon o zaštiti ličnih podataka.
+- Korisnici sistema (pacijenti) će imati niži nivo pristupa sistemu i mogu pristupiti samo vlastitim podacima dok zaposlenici (doktori) će imati autorizaciju za pristup podacima klijenata i svojih podataka.
+- Recepte i nalaze samo doktor može izdavati pacijentima koji se vode u njegovoj kartoteci.
+- Aplikaciji će moći pristupiti korisnici svih operativnih sistema.
+- Aplikacija će biti prilagođena svim veličinama ekrana (desktop računari, laptopi, mobiteli, tableti), bit će responzivna.
+- Aplikacija treba da bude aktivna i funkcionalna bez nekih većih problema 0-24 svim danima u godini.
+- Aplikacija grantuje tačnost podataka i zaštitu podataka svih korisnika od zloupotrebe.
+
 ## Akteri:
 - Doktori
 - Pacijenti
