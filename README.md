@@ -7,17 +7,21 @@
 ## Opis teme:
 - Svjesni smo koliko je dobra organizacija zdravstvenih ustanova, klinika i poliklinika važna za normalno funkcionisanje društva, pogotovo u vrijeme pandemije koja je zadesila cijeli svijet. Stoga je ova aplikacija razvijena u svrhu lakše organizacije rada poliklinike. Glavni cilj aplikacije jeste omogućiti doktorima bolju organizaciju rada i koordinaciju pacijentima. Također, cilj aplikacije jeste i da omogući pacijentima jednostavan pristup, uvid i odabir medicinskih usluga koje poliklinika nudi.
 
-## Funkcionalnosti:
+## Funkcionalni zahtjevi:
 - Doktori:
-  - prijava na profil
-  - uvid u medicinski karton pacijenta
-  - ažuriranje medicinskog kartona pacijenta
-  - kreiranje i ažuriranje rasporeda termina
+  - Registracija/prijava na profil sa vlastitim pristupnim podacima i unosom odjela na kojem je dotični doktor zaposlen.
+  - Kreiranje i ažuriranje rasporeda termina.
+  - Ukoliko je došlo do promjene u rasporedu termina, a dati termin je vec zakazao pacijent, potrebno je da pacijent dobije obavjestenje o takvoj akciji.
+  - Pristup i ažuriranje medicinsko kartona pacijenta.
+  - Izdavanje elektronskih recepata i nalaza, te slanje istih pacijentu na mail.
+  - Ukoliko je jedan od doktora ujedno i direktor poliklinike on ima pravo da nadgleda određene aktivnosti kako doktora tako i pacijenata. Direktor poliklinike ima pravo da pristupi rasporedu termina svakog doktora kako bi pratio njihov aktivan rad, da postavi obavijest na aplikaciju ukoliko se ona tiče cijelog kolektiva poliklinike ili da obavijest pošalje u vidu maila ukoliko se ona tiče samo pojedinih uposlenika. Direktor poliklinike mora imati uvid u broj pacijenata novih pacijenata, kao i u broj pacijenata koji su svoje aktivnosti u poliklinici završili tako da ukoliko se desi jedna od ovih akcija direktoru mora doći obavještenje o istoj.
 - Pacijenti:
-  - pregled i odabir medicinskih usluga
-  - pregled stručnog osoblja
-  - odabir termina
-  - kreiranje medicinskog kartona
+  - Registracija profila sa vlastitim podacima pri čemu se kreira i medicinski karton pacijenta
+  - Nakon odabira doktora i usluge, medicinski karton se pridružuje u "kartoteku" odabranog doktora.
+  - Pristup rasporedu termina odabranog doktora i odabir željenog termina.
+  - Ukoliko pacijent otkaže termin potrebno je poslati obavještenje doktoru (na mail?) o izvršenoj akciji.
+  - Pohranjivanje svih elektronskih recepata i nalaza u PDF formatu na računar/telefon.
+  - Samostalno brisanje profila ukoliko je pacijent završio svoje aktivnosti u poliklinici čime se briše i njegov medicinski karton.
 
 ## Akteri:
 - Doktori
