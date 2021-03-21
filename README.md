@@ -20,7 +20,7 @@
   - Nakon odabira doktora i usluge, medicinski karton se pridružuje u "kartoteku" odabranog doktora.
   - Pristup rasporedu termina odabranog doktora i odabir željenog termina.
   - Ukoliko pacijent otkaže termin potrebno je poslati obavještenje doktoru (na mail?) o izvršenoj akciji.
-  - Pohranjivanje svih elektronskih recepata i nalaza u PDF formatu na računar/telefon.
+  - Pohranjivanje svih elektronskih recepata i nalaza u PDF formatu na računar/telefon, kao i printanje istih.
   - Samostalno brisanje profila ukoliko je pacijent završio svoje aktivnosti u poliklinici čime se briše i njegov medicinski karton.
 
 ## Akteri:
