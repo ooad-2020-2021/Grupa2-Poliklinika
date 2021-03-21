@@ -24,8 +24,8 @@
   - Samostalno brisanje profila ukoliko je pacijent završio svoje aktivnosti u poliklinici čime se briše i njegov medicinski karton.
 
 ## Nefukcionalni zahtjevi:
-- Lični podaci korisnika sistema su zaštićeni poštujući zakon o zaštiti ličnih podataka.
-- Korisnici sistema (pacijenti) će imati niži nivo pristupa sistemu i mogu pristupiti samo vlastitim podacima dok zaposlenici (doktori) će imati autorizaciju za pristup podacima klijenata i svojih podataka.
+- Lični podaci korisnika aplikacije su zaštićeni poštujući zakon o zaštiti ličnih podataka.
+- Korisnici aplikacije (pacijenti) će imati niži nivo pristupa sistemu i mogu pristupiti samo vlastitim podacima dok zaposlenici (doktori) će imati autorizaciju za pristup podacima klijenata i svojih podataka.
 - Recepte i nalaze samo doktor može izdavati pacijentima koji se vode u njegovoj kartoteci.
 - Aplikaciji će moći pristupiti korisnici svih operativnih sistema.
 - Aplikacija će biti prilagođena svim veličinama ekrana (desktop računari, laptopi, mobiteli, tableti), bit će responzivna.
