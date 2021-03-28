@@ -23,15 +23,24 @@
   - Pohranjivanje svih elektronskih recepata i nalaza u PDF formatu na računar/telefon, kao i printanje istih.
   - Samostalno brisanje profila ukoliko je pacijent završio svoje aktivnosti u poliklinici čime se briše i njegov medicinski karton.
 
-## Nefukcionalni zahtjevi:
+## Nefunkcionalni zahtjevi:
+- Recepte i nalaze mogu izdavati samo doktori onim pacijentima koji se vode njihovim kartotekama.
+- Doktori ne mogu imati uvid u kartoteke svojih kolega niti mogu ažurirati informacije u istim, osim ako se ne desi situacija da imaju istog pacijenta.
+- Pacijenti samo mogu birati termine koji se nalaze u rasporedu termina, a sva ažuriranja i mijenjanje rasporeda vrši medicinsko osoblje. 
+- Ukoliko je doktor promijenio vrijeme termina kojeg je neki pacijent već zakazao, automatski se šalje obavještenje na mail pacijentu u roku od 1 do 2 minute. 
+- Termin je moguće zakazati u toku radnog vremena poliklinike (od 8:00 do 17:00) kako bi doktori mogli organizovati svoje radno vrijeme.
+- Korisnici aplikacije (pacijenti) će imati niži nivo pristupa sistemu i mogu pristupiti samo vlastitim podacima dok zaposlenici (doktori) će imati autorizaciju za   pristup podacima klijenata i svojih podataka.
+	
 - Lični podaci korisnika aplikacije su zaštićeni poštujući zakon o zaštiti ličnih podataka.
-- Korisnici aplikacije (pacijenti) će imati niži nivo pristupa sistemu i mogu pristupiti samo vlastitim podacima dok zaposlenici (doktori) će imati autorizaciju za pristup podacima klijenata i svojih podataka.
-- Recepte i nalaze samo doktor može izdavati pacijentima koji se vode u njegovoj kartoteci.
 - Aplikaciji će moći pristupiti korisnici svih operativnih sistema.
 - Aplikacija će biti prilagođena svim veličinama ekrana (desktop računari, laptopi, mobiteli, tableti), bit će responzivna.
 - Aplikacija treba da bude aktivna i funkcionalna bez nekih većih problema 0-24 svim danima u godini.
 - Aplikacija grantuje tačnost podataka i zaštitu podataka svih korisnika od zloupotrebe.
-
+    
 ## Akteri:
-- Doktori
+- Doktori 
 - Pacijenti
+
+- Vanjski uređaj: upload i printanje PDF dokumenta 
+- Asinhronosti: automatsko slanje e-maila ukoliko se desila neka promjena vezana za termine
+
