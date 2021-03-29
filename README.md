@@ -40,6 +40,7 @@
 ## Akteri:
 - Doktori 
 - Pacijenti
+- Direktor poliklinike
 
 # Vanjski uređaj: upload i printanje PDF dokumenta 
 # Asinhronosti: automatsko slanje e-maila ukoliko se desila neka promjena vezana za termine
