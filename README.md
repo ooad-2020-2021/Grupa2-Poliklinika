@@ -12,7 +12,7 @@
   - Registracija/prijava na profil sa vlastitim pristupnim podacima i unosom odjela na kojem je dotični doktor zaposlen.
   - Kreiranje i ažuriranje rasporeda termina.
   - Ukoliko je došlo do promjene u rasporedu termina, a dati termin je vec zakazao pacijent, potrebno je da pacijent dobije obavjestenje o takvoj akciji.
-  - Pristup i ažuriranje medicinsko kartona pacijenta.
+  - Pristup i ažuriranje medicinskog kartona pacijenta.
   - Izdavanje elektronskih recepata i nalaza, te slanje istih pacijentu na mail.
   - Ukoliko je jedan od doktora ujedno i direktor poliklinike on ima pravo da nadgleda određene aktivnosti kako doktora tako i pacijenata. Direktor poliklinike ima pravo da pristupi rasporedu termina svakog doktora kako bi pratio njihov aktivan rad, da postavi obavijest na aplikaciju ukoliko se ona tiče cijelog kolektiva poliklinike ili da obavijest pošalje u vidu maila ukoliko se ona tiče samo pojedinih uposlenika. Direktor poliklinike mora imati uvid u broj pacijenata novih pacijenata, kao i u broj pacijenata koji su svoje aktivnosti u poliklinici završili tako da ukoliko se desi jedna od ovih akcija direktoru mora doći obavještenje o istoj.
 - Pacijenti:
