@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Fakultet\\4. semestar\\OOAD\\Projekat\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj": {}
+    "C:\\Users\\Kanita\\Source\\Repos\\ooad-2020-2021\\Grupa2-Poliklinika\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj": {}
   },
   "projects": {
-    "D:\\Fakultet\\4. semestar\\OOAD\\Projekat\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj": {
+    "C:\\Users\\Kanita\\Source\\Repos\\ooad-2020-2021\\Grupa2-Poliklinika\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Fakultet\\4. semestar\\OOAD\\Projekat\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj",
+        "projectUniqueName": "C:\\Users\\Kanita\\Source\\Repos\\ooad-2020-2021\\Grupa2-Poliklinika\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj",
         "projectName": "PoliklinikaApp",
-        "projectPath": "D:\\Fakultet\\4. semestar\\OOAD\\Projekat\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj",
+        "projectPath": "C:\\Users\\Kanita\\Source\\Repos\\ooad-2020-2021\\Grupa2-Poliklinika\\PoliklinikaApp\\PoliklinikaApp\\PoliklinikaApp.csproj",
         "packagesPath": "C:\\Users\\Kanita\\.nuget\\packages\\",
-        "outputPath": "D:\\Fakultet\\4. semestar\\OOAD\\Projekat\\PoliklinikaApp\\PoliklinikaApp\\obj\\",
+        "outputPath": "C:\\Users\\Kanita\\Source\\Repos\\ooad-2020-2021\\Grupa2-Poliklinika\\PoliklinikaApp\\PoliklinikaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kanita\\AppData\\Roaming\\NuGet\\NuGet.Config",
