@@ -1,0 +1,41 @@
+﻿@model IEnumerable<PoliklinikaApp.Models.Nalaz>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.misljenje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.statusPacijenta)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.misljenje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.statusPacijenta)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_nalaza">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_nalaza">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_nalaza">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -27,8 +27,8 @@ namespace PoliklinikaApp.Data
             modelBuilder.Entity<MedicinskiKarton>().ToTable("MedicinskiKarton");
             modelBuilder.Entity<Nalaz>().ToTable("Nalaz");
             modelBuilder.Entity<Recept>().ToTable("Recept");
-            modelBuilder.Entity<RasporedZaZakazivanje>().ToTable("RasporedZaZakazivanje").HasNoKey();
-            modelBuilder.Entity<RasporedPregleda>().ToTable("RasporedPregleda").HasNoKey();
+            modelBuilder.Entity<RasporedZaZakazivanje>().ToTable("RasporedZaZakazivanje");
+            modelBuilder.Entity<RasporedPregleda>().ToTable("RasporedPregleda");
             modelBuilder.Entity<Pregled>().ToTable("Pregled");
         }
     }

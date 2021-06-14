@@ -9,6 +9,10 @@ namespace PoliklinikaApp.Models
 {
     public class Raspored
     {
+        [Key]
+        [Required]
+        public int id_rasporeda { get; set; }
+
         [Required]
         [NotMapped]
         public List<DateTime> datumi { get; set; }

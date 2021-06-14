@@ -1,0 +1,42 @@
+﻿@model PoliklinikaApp.Models.RasporedPregleda
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>RasporedPregleda</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.zakazanTermin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.zakazanTermin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.slobodanTermin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.slobodanTermin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.otkazanTermin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.otkazanTermin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.vrijeme)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.vrijeme)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.id_rasporeda">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
